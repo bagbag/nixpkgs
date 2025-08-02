@@ -25,8 +25,8 @@ rustPlatform.buildRustPackage (finalAttrs: {
   src = fetchFromGitHub {
     owner = "stalwartlabs";
     repo = "stalwart";
-    tag = "v${finalAttrs.version}";
-    hash = "sha256-VdeHb1HVGXA5RPenhhK4r/kkQiLG8/4qhdxoJ3xIqR4=";
+    rev = "fc6d82ee84494ae11d690cd7e83bcb9fc4f788a9";
+    hash = "sha256-WpNqv/9jmc6L+i5JriDzWAZA/EjMG6yiKi6lwofp1X4=";
   };
 
   cargoHash = "sha256-Wu6skjs3Stux5nCX++yoQPeA33Qln67GoKcob++Ldng=";
